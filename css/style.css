@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+header {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+.head {
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 40px;
+}
+.head .logo {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.head button {
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    width: 150px;
+    box-shadow: 0 0 10px #eee;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.left h1 {
+    margin-bottom: 20px;
+}
+.left .get {
+    background-color: hsl(322, 100%, 66%);
+    width: 250px;
+    display: block;
+    color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+.right img {
+    width: 100%;
+}
+section .sec1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #eee;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+}
+.sec1 img {
+    width: 100%;
+    height: 100%;
+}
+.over-sect {
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+    width: 50%;
+    margin: 90px auto;
+    padding: 50px;
+    margin-bottom: -80px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+.over-sect h2 {
+    font-size: 24px;
+}
+.over-sect .get2 {
+    background-color: hsl(322, 100%, 66%);
+    width: 90%;
+    display: block;
+    color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    margin-bottom: 0;
+}
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    font-size: 15px;
+    position: relative;
+}
+footer img {
+    position: absolute;
+    top: 110px;
+    width: 180px;
+}
+footer .div1 {
+    width: 30%;
+    float: left;
+    padding-top: 10px;
+}
+.div1 p {
+    margin-bottom: 10px;
+}
+footer .div2 {
+    width: 30%;
+    margin-left: 6%;
+    float: left;
+    padding: 10px;
+}
+footer .div2 .first {
+    width: 50%;
+    float: left;
+}
+.div2 ul {
+    list-style: none;
+}
+.div2 li {
+    margin-bottom: 20px;
+}
+footer .div2 .second {
+    width: 50%;
+    float: left;
+}
+footer .div3 {
+    width: 33.3%;
+    float: right;
+    padding-top: 10px;
+}
