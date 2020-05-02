@@ -35,6 +35,7 @@ header {
     border-radius: 20px;
     padding: 10px 25px;
     width: 150px;
+    cursor: pointer;
     box-shadow: 0 0 10px #eee;
 }
 .intro {
@@ -119,13 +120,26 @@ footer .div1 {
     width: 30%;
     float: left;
     padding-top: 10px;
+    margin-left: 2%;
 }
 .div1 p {
     margin-bottom: 10px;
 }
+.div1 img {
+    width: 10px;
+    position: absolute;
+    top: 162px;
+    left: 30px;
+}
+.div1 img:nth-of-type(2){
+    top: 225px;
+}
+.div1 img:nth-of-type(3) {
+    top: 253px;
+}
 footer .div2 {
     width: 30%;
-    margin-left: 6%;
+    margin-left: 4%;
     float: left;
     padding: 10px;
 }
@@ -147,4 +161,92 @@ footer .div3 {
     width: 33.3%;
     float: right;
     padding-top: 10px;
+    text-align: right;
+}
+.div3 .social i {
+    margin-bottom: 100px;
+    margin-right: 20px;
+    right: 10px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+@media(max-width: 375px){
+    header {
+        background-image: url(../images/bg-hero-mobile.svg);
+    }
+    .head .logo{
+        width: 100px;
+    }
+    .head button{
+        width: 120px;
+    }
+    .intro {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .intro .get {
+        margin: 50px auto;
+    }
+    section .sec1 {
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #eee;
+        overflow: hidden;
+        margin-bottom: 30px;
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 70px;
+    }
+    .sec1 h2 {
+        margin-bottom: 20px;
+    }
+    .sec1 img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+    .over-sect {
+        width: 90%;
+    }
+    footer {
+        flex-direction: column;
+        color: #FFF;
+    }
+    .div1, .div2, .div3 {
+        width: 100% !important;
+        float: none !important;
+    }
+    .div1 {
+        margin-left: 15px !important;
+    }
+    .div1 img {
+        left: 10px !important;
+    }
+    .div2 .first {
+        width: 100% !important;
+        margin-top: 30px;
+    }
+    footer .div3 {
+        text-align: center;
+    }
+    .div3 .social i {
+        margin-bottom: 10px;
+        margin-top: 80px;
+        color: #FFF;
+        border: 1px solid #FFF;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
 }
